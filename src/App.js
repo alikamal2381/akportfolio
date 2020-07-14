@@ -1,9 +1,24 @@
-import React from "react";
-import logo from "./logo.svg";
+import React, { Component } from "react";
 import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Body from "./components/Body";
+import { BrowserRouter as Router, Switch } from "react-router-dom";
 
-function App() {
-  return <div className="App">Hello World!</div>;
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <Header />
+          <Switch>
+            <Body />
+          </Switch>
+          <Footer />
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
