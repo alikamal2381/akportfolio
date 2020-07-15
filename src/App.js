@@ -1,22 +1,36 @@
 import React, { Component } from "react";
 import "./App.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Body from "./components/Body";
-import { BrowserRouter as Router, Switch } from "react-router-dom";
+import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import Main from "./components/Main";
+import { Link } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div className="App">
-          <Header />
-          <Switch>
-            <Body />
-          </Switch>
-          <Footer />
-        </div>
-      </Router>
+      <div className="demo-big-content">
+        <Layout>
+          <Header title="MY PORTFOLIO" scroll>
+            <Navigation>
+              <Link to="/Resume">Resume</Link>
+              <Link to="/AboutMe">About Me</Link>
+              <Link to="/Projects">Projects</Link>
+              <Link to="/Contact">Contact</Link>
+            </Navigation>
+          </Header>
+          <Drawer title="My Portfolio">
+            <Navigation>
+              <Link to="/Resume">Resume</Link>
+              <Link to="/AboutMe">About Me</Link>
+              <Link to="/Projects">Projects</Link>
+              <Link to="/Contact">Contact</Link>
+            </Navigation>
+          </Drawer>
+          <Content>
+            <div className="page-content" />
+            <Main />
+          </Content>
+        </Layout>
+      </div>
     );
   }
 }
