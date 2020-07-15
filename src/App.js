@@ -11,6 +11,7 @@ class App extends Component {
         <Layout>
           <Header className="header-color" title="MY PORTFOLIO" scroll>
             <Navigation>
+              <Link to="/">Home Page</Link>
               <Link to="/Resume">Resume</Link>
               <Link to="/AboutMe">About Me</Link>
               <Link to="/Projects">Projects</Link>
@@ -19,6 +20,7 @@ class App extends Component {
           </Header>
           <Drawer title="My Portfolio">
             <Navigation>
+              <Link to="/">Home Page</Link>
               <Link to="/Resume">Resume</Link>
               <Link to="/AboutMe">About Me</Link>
               <Link to="/Projects">Projects</Link>
