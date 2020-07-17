@@ -45,9 +45,9 @@ class Projects extends Component {
               type and scrambled it to make a type specimen book.
             </CardText>
             <CardActions border>
-              <button colored>Github</button>
-              <button colored>Code pen</button>
-              <button colored>LIVE DEMO</button>
+              <Button colored>Github</Button>
+              <Button colored>Code pen</Button>
+              <Button colored>LIVE DEMO</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -73,9 +73,9 @@ class Projects extends Component {
               type and scrambled it to make a type specimen book.
             </CardText>
             <CardActions border>
-              <button colored>Github</button>
-              <button colored>Code pen</button>
-              <button colored>LIVE DEMO</button>
+              <Button colored>Github</Button>
+              <Button colored>Code pen</Button>
+              <Button colored>LIVE DEMO</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -101,9 +101,9 @@ class Projects extends Component {
               type and scrambled it to make a type specimen book.
             </CardText>
             <CardActions border>
-              <button colored>Github</button>
-              <button colored>Code pen</button>
-              <button colored>LIVE DEMO</button>
+              <Button colored>Github</Button>
+              <Button colored>Code pen</Button>
+              <Button colored>LIVE DEMO</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -141,9 +141,9 @@ class Projects extends Component {
               type and scrambled it to make a type specimen book.
             </CardText>
             <CardActions border>
-              <button colored>Github</button>
-              <button colored>Code pen</button>
-              <button colored>LIVE DEMO</button>
+              <Button colored>Github</Button>
+              <Button colored>Code pen</Button>
+              <Button colored>LIVE DEMO</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -169,9 +169,9 @@ class Projects extends Component {
               type and scrambled it to make a type specimen book.
             </CardText>
             <CardActions border>
-              <button colored>Github</button>
-              <button colored>Code pen</button>
-              <button colored>LIVE DEMO</button>
+              <Button colored>Github</Button>
+              <Button colored>Code pen</Button>
+              <Button colored>LIVE DEMO</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -197,9 +197,9 @@ class Projects extends Component {
               type and scrambled it to make a type specimen book.
             </CardText>
             <CardActions border>
-              <button colored>Github</button>
-              <button colored>Code pen</button>
-              <button colored>LIVE DEMO</button>
+              <Button colored>Github</Button>
+              <Button colored>Code pen</Button>
+              <Button colored>LIVE DEMO</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
