@@ -126,7 +126,7 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "black",
+                color: "white",
                 height: "176px",
                 background:
                   "url(https://cdn.idevie.com/wp-content/uploads/2015/12/React.js_logo.svg_.png) center / cover",
@@ -154,7 +154,7 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "black",
+                color: "white",
                 height: "176px",
                 background:
                   "url(https://cdn.idevie.com/wp-content/uploads/2015/12/React.js_logo.svg_.png) center / cover",
@@ -182,7 +182,7 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "black",
+                color: "white",
                 height: "176px",
                 background:
                   "url(https://cdn.idevie.com/wp-content/uploads/2015/12/React.js_logo.svg_.png) center / cover",

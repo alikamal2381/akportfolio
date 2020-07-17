@@ -20,9 +20,27 @@ class LandingPage extends Component {
               <hr />
               <p>HTML/CSS | Bootstrap | React | Facebook</p>
               <div className="social-links">
+                {/* facebook */}
+                <a
+                  href="https://www.facebook.com/alikamal2381"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-facebook-square" aria-hidden="true" />
+                </a>
+
+                {/* twitter */}
+                <a
+                  href="https://twitter.com/home"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-twitter-square" aria-hidden="true" />
+                </a>
+
                 {/* LinkedIn */}
                 <a
-                  href="http://www.google.com"
+                  href="https://www.linkedin.com/in/ali-kamal-8436537"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -31,20 +49,11 @@ class LandingPage extends Component {
 
                 {/* youtube */}
                 <a
-                  href="http://www.google.com"
+                  href="https://www.youtube.com/user/alikamal2381"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i className="fa fa-youtube-square" aria-hidden="true" />
-                </a>
-
-                {/* facebook */}
-                <a
-                  href="http://www.google.com"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i className="fa fa-facebook-square" aria-hidden="true" />
                 </a>
 
                 {/* github */}

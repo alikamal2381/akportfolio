@@ -41,19 +41,31 @@ class Resume extends Component {
             <div>
               <h2>Education</h2>
               <Education
-                startYear={2003}
-                endYear={2005}
-                schoolName={"My University"}
-                schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry."
+                startYear={2013}
+                endYear={2015}
+                schoolName={"KASB Institute of Technology"}
+                schoolDescription="Master of Business Administration"
               />
 
               <Education
-                startYear={2006}
-                endYear={2007}
-                schoolName={"My Other University"}
-                schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry."
+                startYear={2001}
+                endYear={2003}
+                schoolName={"Karachi University (Private)"}
+                schoolDescription="Becholor of Commerce"
+              />
+
+              <Education
+                startYear={1998}
+                endYear={2000}
+                schoolName={"Govt. Dehli College"}
+                schoolDescription="F. Sc. Intermidiate"
+              />
+
+              <Education
+                startYear={1997}
+                endYear={1998}
+                schoolName={"B.N. Grammer School"}
+                schoolDescription="S. Sc. Matriculation"
               />
 
               <hr style={{ borderTop: "3px solid #e22947" }} />
@@ -61,27 +73,45 @@ class Resume extends Component {
               <h2>Experience</h2>
 
               <Experience
+                startYear={2018}
+                endYear={2020}
+                jobName={"Telenor Microfinance Bank"}
+                jobDescription="Banking Industry"
+              />
+
+              <Experience
+                startYear={2017}
+                endYear={2017}
+                jobName={"Viftech Solutions"}
+                jobDescription="IT Software House"
+              />
+
+              <Experience
+                startYear={2015}
+                endYear={2016}
+                jobName={"MAAKEDOOR"}
+                jobDescription="IT Software House"
+              />
+
+              <Experience
+                startYear={2012}
+                endYear={2014}
+                jobName={"Dr. Ziauddin Hospital"}
+                jobDescription="Hospital Industry"
+              />
+
+              <Experience
+                startYear={2008}
+                endYear={2009}
+                jobName={"Dotme Tech"}
+                jobDescription="Software House in Dubai, United Arab Emirates"
+              />
+
+              <Experience
                 startYear={2003}
-                endYear={2005}
+                endYear={2007}
                 jobName={"PNT Global"}
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry."
-              />
-
-              <Experience
-                startYear={2003}
-                endYear={2005}
-                jobName={"Dr Ziauddin Hospital"}
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry."
-              />
-
-              <Experience
-                startYear={2003}
-                endYear={2005}
-                jobName={"Telenor Microfinace Bank"}
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry."
+                jobDescription="PNT Software House"
               />
 
               <hr style={{ borderTop: "3px solid #e22947" }} />
