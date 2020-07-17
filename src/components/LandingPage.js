@@ -16,8 +16,7 @@ class LandingPage extends Component {
             />
 
             <div className="banner-text">
-              <h1>Software Engineer</h1>
-
+              <h1>ALI KAMAL</h1>
               <hr />
               <p>HTML/CSS | Bootstrap | React | Facebook</p>
               <div className="social-links">

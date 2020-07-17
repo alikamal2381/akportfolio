@@ -9,9 +9,16 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" title="MY PORTFOLIO" scroll>
+          <Header
+            className="header-color"
+            title={
+              <Link style={{ textDecoration: "none", color: "white" }} to="/">
+                MY PORTFOLIO
+              </Link>
+            }
+            scroll
+          >
             <Navigation>
-              <Link to="/">Home Page</Link>
               <Link to="/Resume">Resume</Link>
               <Link to="/AboutMe">About Me</Link>
               <Link to="/Projects">Projects</Link>
@@ -20,7 +27,6 @@ class App extends Component {
           </Header>
           <Drawer title="My Portfolio">
             <Navigation>
-              <Link to="/">Home Page</Link>
               <Link to="/Resume">Resume</Link>
               <Link to="/AboutMe">About Me</Link>
               <Link to="/Projects">Projects</Link>
