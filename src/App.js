@@ -41,7 +41,14 @@ class App extends Component {
           </Drawer>
           <Content>
             <div className="page-content" />
-            <Main />
+            {/* <Main /> */}
+            <h1 style={{ textAlign: "center", fontSize: "6em" }}>
+              {" "}
+              Coming Soon
+            </h1>
+            <h3 style={{ textAlign: "center", fontSize: "3em" }}>
+              The Site is Under Construction.
+            </h3>
           </Content>
         </Layout>
       </div>
