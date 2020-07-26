@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-//import Main from "./components/Main";
+import Main from "./components/Main";
 import { Link } from "react-router-dom";
 
 class App extends Component {
@@ -41,14 +41,7 @@ class App extends Component {
           </Drawer>
           <Content>
             <div className="page-content" />
-            {/* <Main /> */}
-            <h1 style={{ textAlign: "center", fontSize: "6em" }}>
-              {" "}
-              Coming Soon
-            </h1>
-            <h3 style={{ textAlign: "center", fontSize: "3em" }}>
-              The Site is Under Construction.
-            </h3>
+            <Main />
           </Content>
         </Layout>
       </div>

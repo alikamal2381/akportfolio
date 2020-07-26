@@ -43,6 +43,12 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+## Developemnt Info
+
+Live Url: http://ez-akportfolio.surge.sh/
+Github Repo: https://github.com/alikamal2381/akportfolio.git
+Source: https://tleunen.github.io/react-mdl/components/card/
+
 ### Code Splitting
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting

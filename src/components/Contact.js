@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import MyPic from "../images/final-ak2.png";
+
+//src="https://scontent.fkhi17-1.fna.fbcdn.net/v/t1.0-9/105700817_10220537488700253_7275499227006437323_n.jpg?_nc_cat=100&_nc_sid=85a577&_nc_eui2=AeHB9olOoTuLOe26sEcVeTu65Bsv0J8yuDHkGy_QnzK4MZa5j5hrdny9Oz6HEfnU3kI&_nc_ohc=ojOFkgWtBVMAX9ArNpm&_nc_ht=scontent.fkhi17-1.fna&oh=dd8458128ba1601d9333af8db0d9d0d8&oe=5F331578"
 
 class Contact extends Component {
   render() {
@@ -8,16 +11,11 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Ali Kamal</h2>
-            <img
-              src="https://scontent.fkhi17-1.fna.fbcdn.net/v/t1.0-9/105700817_10220537488700253_7275499227006437323_n.jpg?_nc_cat=100&_nc_sid=85a577&_nc_eui2=AeHB9olOoTuLOe26sEcVeTu65Bsv0J8yuDHkGy_QnzK4MZa5j5hrdny9Oz6HEfnU3kI&_nc_ohc=ojOFkgWtBVMAX9ArNpm&_nc_ht=scontent.fkhi17-1.fna&oh=dd8458128ba1601d9333af8db0d9d0d8&oe=5F331578"
-              alt="avatar"
-              style={{ height: "250px" }}
-            />
+            <img src={MyPic} alt="avatar" style={{ height: "250px" }} />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              I intend to acquire vast experience in the area of{" "}
+              <strong>Computer Software and Development Solutions,</strong> by
+              utilizing my skills and Knowledge.
             </p>
           </Cell>
           <Cell col={6}>

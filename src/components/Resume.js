@@ -3,6 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Education from "./Education";
 import Experience from "./Experience";
 import Skills from "./Skills";
+import MyPic from "../images/final-ak2.png";
 
 class Resume extends Component {
   render() {
@@ -11,28 +12,26 @@ class Resume extends Component {
         <Grid className="resume-grid">
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
-              <img
-                src="https://scontent.fkhi17-1.fna.fbcdn.net/v/t1.0-9/105700817_10220537488700253_7275499227006437323_n.jpg?_nc_cat=100&_nc_sid=85a577&_nc_eui2=AeHB9olOoTuLOe26sEcVeTu65Bsv0J8yuDHkGy_QnzK4MZa5j5hrdny9Oz6HEfnU3kI&_nc_ohc=ojOFkgWtBVMAX9ArNpm&_nc_ht=scontent.fkhi17-1.fna&oh=dd8458128ba1601d9333af8db0d9d0d8&oe=5F331578"
-                alt="avatar"
-                style={{ height: "200px" }}
-              />
+              <img src={MyPic} alt="avatar" style={{ height: "200px" }} />
             </div>
             <h2 style={{ paddingTop: "2em" }}>Ali Kamal</h2>
             <h4 style={{ color: "grey" }}>Programmer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              I intend to acquire vast experience in the area of{" "}
+              <strong>Computer Software and Development Solutions,</strong> by
+              utilizing my skills and Knowledge.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
-            <p>Abcdd ee 1 i 2333</p>
+            <p>
+              G-2, Fareed Appartment Phase-1 Block-7 F.B.Area Post Office
+              Karachi
+            </p>
             <h5>Phone</h5>
             <p>+92 (300) 2465967</p>
             <h5>Email</h5>
-            <p>some@example.com</p>
+            <p>alikamal2381@gmail.com</p>
             <h5>Web</h5>
             <p>www.ezsystemspk.com</p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
