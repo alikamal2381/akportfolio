@@ -24,7 +24,6 @@ class LandingPage extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  aa
                   <i className="fa fa-facebook-square" aria-hidden="true" />
                 </a>
 
@@ -34,7 +33,6 @@ class LandingPage extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  aa
                   <i className="fa fa-twitter-square" aria-hidden="true" />
                 </a>
 
@@ -44,7 +42,6 @@ class LandingPage extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  aa
                   <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
 
@@ -54,7 +51,6 @@ class LandingPage extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  aa
                   <i className="fa fa-youtube-square" aria-hidden="true" />
                 </a>
 
@@ -64,7 +60,6 @@ class LandingPage extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  aa
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
               </div>

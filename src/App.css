@@ -35,7 +35,13 @@
 
 .projects-grid {
   display: flex;
+  /* grid-column: auto; */
 }
+
+/* .projects-grid.content {
+  display: flex;
+  grid-column: auto;
+} */
 
 /* contact page css */
 .contact-body {
