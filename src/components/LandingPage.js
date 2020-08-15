@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-//import MyPic from "../images/my-final-pic.png";
 import MyPic from "../images/final-ak2.png";
 
 //src="https://www.shareicon.net/data/2015/09/24/106427_man_512x512.png"
@@ -25,6 +24,7 @@ class LandingPage extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
+                  aa
                   <i className="fa fa-facebook-square" aria-hidden="true" />
                 </a>
 
@@ -34,6 +34,7 @@ class LandingPage extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
+                  aa
                   <i className="fa fa-twitter-square" aria-hidden="true" />
                 </a>
 
@@ -43,6 +44,7 @@ class LandingPage extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
+                  aa
                   <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
 
@@ -52,6 +54,7 @@ class LandingPage extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
+                  aa
                   <i className="fa fa-youtube-square" aria-hidden="true" />
                 </a>
 
@@ -61,6 +64,7 @@ class LandingPage extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
+                  aa
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
               </div>
