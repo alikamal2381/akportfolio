@@ -29,7 +29,11 @@ class App extends Component {
                   <Navigation>
                     <Link to="/Resume">Resume</Link>
                     <Link to="/AboutMe">About Me</Link>
-                    <Link to="/Projects">Projects</Link>
+                    <Link to="/Projects" className="notification">
+                      <span>Special</span>
+                      <span className="badge">3</span>
+                    </Link>
+                    <Link to="/Listing">Listing</Link>
                     <Link to="/Contact">Contact</Link>
                   </Navigation>
                 </Header>
@@ -46,7 +50,8 @@ class App extends Component {
                   <Navigation>
                     <Link to="/Resume">Resume</Link>
                     <Link to="/AboutMe">About Me</Link>
-                    <Link to="/Projects">Projects</Link>
+                    <Link to="/Projects">Special</Link>
+                    <Link to="/Listing">Projects</Link>
                     <Link to="/Contact">Contact</Link>
                   </Navigation>
                 </Drawer>
