@@ -57,6 +57,15 @@ class Contact extends Component {
                     alikamal2381
                   </ListItemContent>
                 </ListItem>
+
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                  >
+                    <i className="fa fa-globe" aria-hidden="true" />
+                    http://ezsystemspk.surge.sh/
+                  </ListItemContent>
+                </ListItem>
               </List>
             </div>
           </Cell>
