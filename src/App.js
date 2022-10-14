@@ -29,10 +29,12 @@ class App extends Component {
                   <Navigation>
                     <Link to="/Resume">Resume</Link>
                     <Link to="/AboutMe">About Me</Link>
-                    <Link to="/Projects" className="notification">
+                    <Link to="/Projects">Projects</Link>
+
+                    {/* <Link to="/Projects" className="notification">
                       <span>Special</span>
                       <span className="badge">3</span>
-                    </Link>
+                    </Link> */}
                     <Link to="/Listing">Listing</Link>
                     <Link to="/Contact">Contact</Link>
                   </Navigation>
