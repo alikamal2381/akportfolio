@@ -21,7 +21,7 @@ class App extends Component {
                       style={{ textDecoration: "none", color: "white" }}
                       to="/"
                     >
-                      My Portfolio.
+                      My Portfolio
                     </Link>
                   }
                   scroll
